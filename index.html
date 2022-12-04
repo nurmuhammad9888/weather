@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Ob-havo</title>
+</head>
+<body class="bg-info">
+    <!-- SITE HEADER START -->
+    <header class="site-header">
+        <div class="toast-container position-fixed top-50 start-50 translate-middle">
+            <div id="liveToast" class="toast fade hide" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header justify-content-between">
+                    <p class="mb-0">Shahar nomini notug'ri kiritingiz</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SITE HEADER FINISH -->
+    
+    <!-- SITE MAIN START -->
+    <main class="site-main">
+        <!-- HERO SECTION START -->
+        <section class="hero">
+            <div class="container px-4 px-md-0">
+                <div class="my-5 ">
+                    <form class="weather-form-js d-flex justify-content-center" action="#" autocomplete="off">
+                        <input class="weather-input-search" type="search" name="weather_search" placeholder="Search..">
+                        <button class="btn btn-submit ms-2" type="submit">Search</button>
+                    </form>
+                </div>
+                
+                <ul class="weather-list list-unstyled row justify-content-around d-none d-lg-flex">
+                    <li class="weather-item col-12 col-md-6 col-lg-3 rounded d-flex justify-content-between mx-auto mx-md-0">
+                        <div>
+                            <p class="weather-counter">DE</p>
+                            <p class="weather-counter-name">Berlin</p>
+                            <span class="weather-counter-status">Clouds</span>
+                        </div>
+                        <div>
+                            <img class="weather-counter-img" src="" alt="">
+                            <span class="weather-counter-temp d-block">1 °C</span>
+                            <button class="weather-counter-btn">More Info</button>
+                        </div>
+                    </li>
+                    <li class="weather-item col-12 col-md-6 col-lg-3 rounded d-flex justify-content-between mx-auto mx-md-0">
+                        <div>
+                            <p class="weather-counter">DE</p>
+                            <p class="weather-counter-name">Berlin</p>
+                            <span class="weather-counter-status">Clouds</span>
+                        </div>
+                        <div>
+                            <img class="weather-counter-img" src="" alt="">
+                            <span class="weather-counter-temp d-block">1 °C</span>
+                            <button class="weather-counter-btn">More Info</button>
+                        </div>
+                    </li>
+                    <li class="weather-item col-12 col-md-6 col-lg-3 rounded d-flex justify-content-between mx-auto mx-md-0">
+                        <div>
+                            <p class="weather-counter">DE</p>
+                            <p class="weather-counter-name">Berlin</p>
+                            <span class="weather-counter-status">Clouds</span>
+                        </div>
+                        <div>
+                            <img class="weather-counter-img" src="" alt="">
+                            <span class="weather-counter-temp d-block">1 °C</span>
+                            <button class="weather-counter-btn">More Info</button>
+                        </div>
+                    </li>
+                    <li class="weather-item col-12 col-md-6 col-lg-3 rounded d-flex justify-content-between mx-auto mx-md-0">
+                        <div>
+                            <p class="weather-counter">DE</p>
+                            <p class="weather-counter-name">Berlin</p>
+                            <span class="weather-counter-status">Clouds</span>
+                        </div>
+                        <div>
+                            <img class="weather-counter-img" src="" alt="">
+                            <span class="weather-counter-temp d-block">1 °C</span>
+                            <button class="weather-counter-btn">More Info</button>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="hero-wrap row justify-content-center">
+
+                </div>
+                
+                <h3 class="text-center my-4 weather-five-days-top-title mx-auto"> 5 kunlik ob havo ma'lumotlari</h3>
+                <h2 class="hero-weather-five-days-title mb-4 text-center mx-auto"></h2>
+                
+                <div class="hero-wrap-day row justify-content-around mb-4">
+                    
+                </div>
+            </div>
+        </section>
+        <!-- HERO SECTION FINISH -->
+    </main>
+    <!-- SITE MAIN FINISH -->
+    
+    <!-- SITE FOOTER START -->
+    <footer class="site-footer">
+        
+    </footer>
+    <!-- SITE FOOTER FINISH -->
+    
+    <template class="weather-template-search">
+        <div class="hero-weather-left col-12 col-md-6 text-center">
+            <address class="weather-cite fs-3">Toshkent, UZ</address>
+            <time class="weather-time d-block">Friday 2 December 16:50</time>
+            <img class="weather-big-img" width="180" height="180" src="" alt="">
+            <p class="weather-text">quyoshli</p>
+            <span class="weather-temp d-block text-warning">11 °C</span>
+            <p class="weather-feels_like">hisqilish</p>
+        </div>
+        <div class="hero-weather-right col-12 col-md-6">
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                <img class="weather-sunrise-img" src="" width="50" height="50" alt="">
+                <p class="weather-sunrise mb-0">quyosh chiqishi</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                <img class="weather-sunset-img" src="" width="50" height="50" alt="">
+                <p class="weather-sunset mb-0">quyosh botishi</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                <img class="weather-img-humidity mb-0" width="50" height="50" src="" alt="">
+                <p class="weather-humidity mb-0">namlik</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                <img class="weather-img-pressure" width="50" height="50" src="" alt="">
+                <p class="weather-pressure">bosim</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                <img class="weather-img-wind" width="50" height="50" src="" alt="">
+                <p class="weather-wind mb-0">shamol</p>
+            </div>
+        </div>
+    </template>
+    <template class="weather-day-template-search">
+        <div class="hero-weather-five-days col-12 col-md-6 mt-2 text-center">
+            <div class="d-flex justify-content-between align-items-center">
+                <img class="weather-five-days-icon" width="55" height="55" src="" alt="">
+                <p class="weather-five-days-text mb-0"></p>
+                <span class="weather-five-days-temp d-block"></span>
+                <time class="weather-five-days-time d-block"></time>
+            </div>
+            
+        </div>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

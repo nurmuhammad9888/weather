@@ -30,7 +30,7 @@ async function weatherFunc(url, api){
             elWeatherTileFive.classList.remove("d-none")
             elDayTitle.classList.remove("d-none")
         }
-        console.log(data);
+        // console.log(data);
         renderFunc(data)
     } catch (error) {
         console.log(error);
@@ -126,7 +126,7 @@ async function weatherDayFunc(url, api){
     try {
         const res = await fetch(`${url}${api}`)
         const data = await res.json();
-        console.log(data); 
+        // console.log(data); 
         renderDayFunc(data)
     } catch (error) {
         console.log(error);
